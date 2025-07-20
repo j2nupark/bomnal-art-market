@@ -9,10 +9,12 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-primary rounded-2xl flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">아</span>
-            </div>
-            <h1 className="text-xl font-bold text-foreground hidden sm:block">아트마켓</h1>
+            <img 
+              src="/lovable-uploads/0335f132-11ce-4d01-984e-fac502a124b7.png" 
+              alt="아트머그 로고"
+              className="w-10 h-10 rounded-2xl"
+            />
+            <h1 className="text-xl font-bold text-foreground hidden sm:block">아트머그</h1>
           </div>
 
           {/* Search Bar - Hidden on mobile */}
